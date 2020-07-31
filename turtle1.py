@@ -1,6 +1,6 @@
-#import win10toast
-#from win10toast import ToastNotifier
-#n = ToastNotifier()
+#import win10toast // library for desktop  notification
+#from win10toast import ToastNotifier // not required for graphics
+#n = ToastNotifier() // same
 
 from turtle import *
 from random import randint
@@ -34,6 +34,6 @@ while x < (410):
  x = x+1
  
 
-#n.show_toast("Your Name", "Your program got executed", duration = 20) 
+#n.show_toast("Your Name", "Your program got executed", duration = 20) // for desktop Notification 
 
 exitonclick()
