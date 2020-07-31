@@ -25,12 +25,12 @@ while x < (410):
  
  
  colormode(255)
- pencolor((red[x % 6]),(green[x % 6]),(blue[x % 6]))
+ pencolor((red[x % 6]),(green[x % 6]),(blue[x % 6])) // # for square pattern
 
- #pencolor((red[x % 4]),(green[x % 4]),(blue[x % 4]))
+ #pencolor((red[x % 4]),(green[x % 4]),(blue[x % 4])) //remove # for square pattern // change rt(60.5) to rt(90.5) for square
  
  fd(30+x)
- rt(60.5)
+ rt(60.5)   
  x = x+1
  
 
